@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer Scanner Viewfinder Brackets (Cyan #38BDF8) -->
+    <!-- Top-Left -->
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M26,38 L26,27 L37,27" />
+    <!-- Top-Right -->
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M71,27 L82,27 L82,38" />
+    <!-- Bottom-Left -->
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M26,70 L26,81 L37,81" />
+    <!-- Bottom-Right -->
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M71,81 L82,81 L82,70" />
+
+    <!-- Center Card / Document Badge -->
+    <path
+        android:fillColor="#1E1B4B"
+        android:strokeColor="#6366F1"
+        android:strokeWidth="2"
+        android:pathData="M37,34 h34 c2.2,0 4,1.8 4,4 v32 c0,2.2 -1.8,4 -4,4 h-34 c-2.2,0 -4,-1.8 -4,-4 v-32 c0,-2.2 1.8,-4 4,-4 z" />
+
+    <!-- Text Extract Lines -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.8"
+        android:strokeLineCap="round"
+        android:pathData="M41,43 L67,43" />
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="2.8"
+        android:strokeLineCap="round"
+        android:pathData="M41,51 L61,51" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.8"
+        android:strokeLineCap="round"
+        android:pathData="M41,59 L65,59" />
+    <path
+        android:strokeColor="#A5B4FC"
+        android:strokeWidth="2.8"
+        android:strokeLineCap="round"
+        android:pathData="M41,67 L53,67" />
+
+    <!-- Laser Scanning Beam (Glowing Cyan) -->
+    <path
+        android:strokeColor="#22D3EE"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M24,53 L84,53" />
+</vector>

@@ -1,0 +1,6 @@
+{
+  "name": "Universal Capture",
+  "description": "Lightweight text extraction and OCR tool for any screen.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

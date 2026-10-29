@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Universal Capture</string>
+    <string name="accessibility_service_description">Universal Capture inspects non-selectable on-screen text and captures content for instant copy, share, and OCR.</string>
+    <string name="notification_channel_name">Capture Mode</string>
+    <string name="notification_channel_desc">Persistent quick-access notification to trigger screen capture</string>
+    <string name="notification_title">⚡ Universal Capture Active</string>
+    <string name="notification_content">Tap here to extract text from the current screen</string>
+    <string name="action_capture_now">Extract Screen</string>
+</resources>

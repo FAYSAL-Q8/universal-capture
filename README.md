@@ -1,4 +1,4 @@
-# Universal Capture (النسخ الشامل)
+# Universal Capture
 
 Universal Capture is a high-performance Android utility engineered to extract, copy, and edit unselectable on-screen text, URLs, and QR codes across any third-party app without root access. By combining Android Accessibility node hierarchy inspection with on-device hardware-accelerated ML Kit OCR, it provides an interactive, non-intrusive overlay with pixel-perfect bounding box alignment.
 
@@ -10,8 +10,8 @@ Universal Capture is a high-performance Android utility engineered to extract, c
 - **Interactive Visual Overlay**: Highlights detected text segments in real time with precise 1:1 bounding boxes, allowing instant single-tap selection, multi-block batch copying, and inline text editing.
 - **Movable Floating Toolbar**: Fluidly drag and position the scanning control bar anywhere across the screen to avoid obstructing underlying UI elements, featuring quick reset via double-tap.
 - **Live Screen OCR & QR Scanner**: Utilizes Google ML Kit Vision on-device to read text and decode barcodes/QR codes directly from live screenshot hardware buffers with zero latency and complete privacy.
-- **Bi-directional (Arabic & LTR) Script Precision**: Purpose-built coordinate mapping engine that eliminates mirroring bugs and guarantees accurate bounding box rendering across RTL (Arabic, Hebrew) and LTR languages.
-- **Deep URL & Metadata Sanitization**: Automatically reconstructs broken links, eliminates unwanted OCR whitespace or punctuation artifacts, and counts script characters (Arabic, Latin, digits) in real time.
+- **Bi-directional Script Precision**: Purpose-built coordinate mapping engine that eliminates mirroring bugs and guarantees accurate bounding box rendering across both RTL and LTR languages.
+- **Deep URL & Metadata Sanitization**: Automatically reconstructs broken links, eliminates unwanted OCR whitespace or punctuation artifacts, and provides character counts in real time.
 - **Multiple Non-Intrusive Triggers**: Trigger instant scans via a draggable floating bubble, persistent notification controls, or a dedicated Android Quick Settings Tile.
 - **Background Persistence & Battery Exemption Guide**: In-app one-tap diagnosis and battery optimization exemptions to prevent OEM background process termination.
 
@@ -65,6 +65,9 @@ Universal Capture is a high-performance Android utility engineered to extract, c
    ```bash
    adb install app/build/outputs/apk/debug/app-debug.apk
    ```
+
+### Direct APK Download
+Pre-compiled debug and release binaries can be grabbed directly from the GitHub **Releases** tab (`app-debug.apk`) or built locally using `gradle assembleDebug`.
 
 ---
 

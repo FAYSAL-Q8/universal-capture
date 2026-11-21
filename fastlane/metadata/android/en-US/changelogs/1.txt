@@ -1,0 +1,5 @@
+Initial v1.0.0 public release:
+- On-device ML Kit OCR and QR/barcode extraction overlay
+- Accessibility node hierarchy + screenshot buffer capture
+- Floating trigger bubble, notification action, and Quick Settings tile
+- Clean MIT-licensed build

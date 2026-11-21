@@ -1,0 +1,8 @@
+Universal Capture lets you extract, copy, and edit unselectable on-screen text, URLs, and QR codes across any Android app without root access.
+
+Features:
+- On-device ML Kit OCR & QR/barcode scanning (100% offline by default)
+- Interactive visual overlay with 1:1 bounding boxes (tap to select, double-tap to copy, long-press to edit)
+- RTL & LTR bi-directional coordinate precision
+- Deep URL reconstruction & whitespace cleanup
+- Multiple triggers: draggable floating bubble, notification action, or Quick Settings tile
